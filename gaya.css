@@ -108,6 +108,11 @@ section {
   display: flex; /* Agar isi (teks) bisa rata */
   align-items: center;
   justify-content: center;
+
+  font-size: 25px;
+  font-family: serif;
+  font-style: italic;
+  color: rgb(255, 255, 255);
 }
 
 a {

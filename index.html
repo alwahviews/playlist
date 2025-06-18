@@ -22,34 +22,22 @@
         <div class="favorite">Favorite Songs</div>
         <div class="kotak-list">
           <div class="lagu">
-            <button onclick="lagu1.eec" class="btn">
-              <a href="#">lagu 1</a>
-            </button>
+            <button onclick="playSong('lagu1.aac')" class="btn">Lagu 1</button>
           </div>
           <div class="lagu">
-            <button onclick="lagu2.eec" class="btn">
-              <a href="#">lagu 2</a>
-            </button>
+            <button onclick="playSong('lagu2.aac')" class="btn">Lagu 1</button>
           </div>
           <div class="lagu">
-            <button onclick="lagu3.eec" class="btn">
-              <a href="#">lagu 3</a>
-            </button>
+            <button onclick="playSong('lagu3.aac')" class="btn">Lagu 1</button>
           </div>
           <div class="lagu">
-            <button onclick="lagu1.eec" class="btn">
-              <a href="#">lagu 4</a>
-            </button>
+            <button onclick="playSong('lagu1.aac')" class="btn">Lagu 1</button>
           </div>
           <div class="lagu">
-            <button onclick="lagu1.eec" class="btn">
-              <a href="#">lagu 5</a>
-            </button>
+            <button onclick="playSong('lagu1.aac')" class="btn">Lagu 1</button>
           </div>
           <div class="lagu">
-            <button onclick="lagu1.eec" class="btn">
-              <a href="#">lagu 6</a>
-            </button>
+            <button onclick="playSong('lagu1.aac')" class="btn">Lagu 1</button>
           </div>
         </div>
 
@@ -58,3 +46,11 @@
     </section>
   </body>
 </html>
+
+<script>
+  function playSong(file) {
+    const audio = document.getElementById("audioPlayer");
+    audio.src = file;
+    audio.play();
+  }
+</script>
