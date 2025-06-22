@@ -61,7 +61,7 @@ section {
   width: 90%;
   height: 120px;
   font-size: 45px;
-  font-family: arial, sans-serif;
+  font-family: sans-serif;
   font-weight: bold;
   color: aliceblue;
   display: start;
@@ -144,7 +144,7 @@ a {
 
 @media (max-width: 500px) {
   .kotak-luar {
-    width: 90%;
+    width: 80%;
     height: auto;
   }
 
@@ -152,7 +152,7 @@ a {
     font-size: 35px;
   }
 
-  .lagu {
-    font-size: 20px;
+  .btn {
+    font-size: 15px;
   }
 }
