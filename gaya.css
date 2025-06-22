@@ -43,7 +43,7 @@ section {
 .kotak-luar {
   height: 500px;
   width: 450px;
-  background-color: rgb(0, 0, 0);
+  background-color: transparent;
   display: flex;
   flex-direction: column; /* Ubah ke kolom */
   justify-content: start; /* Mulai dari atas */
@@ -109,7 +109,7 @@ section {
   align-items: center;
   justify-content: center;
 
-  font-size: 25px;
+  font-size: 18px;
   font-family: serif;
   font-style: italic;
   color: rgb(255, 255, 255);
@@ -129,14 +129,17 @@ a {
   transition: 0.2s ease-in-out;
 }
 
-.kotak-luar {
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+.favorite,
+.lagu,
+.audio {
+  box-shadow: 0 0 15px black;
 }
 
 .audio {
   width: 75%;
   /* height: 45%; */
   margin-bottom: 20px;
+  border-radius: 50px;
 }
 
 @media (max-width: 500px) {
